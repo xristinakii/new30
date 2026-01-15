@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Pstyle</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #5A2A82; /* Mov principal */
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    h1 {
+        margin-top: 20px;
+        font-size: 3em;
+        font-weight: bold;
+
+        /* Gradient mov */
+        background: linear-gradient(135deg, #C08BFF, #5A2A82);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        /* Glow mov */
+        text-shadow: 0 0 12px rgba(192, 139, 255, 0.8);
+
+        animation: textGlow 1.5s ease-in-out infinite;
+    }
+
+    h2 {
+        color: #C08BFF; /* Mov deschis */
+        font-size: 2em;
+        text-align: center;
+        margin-top: 40px;
+        text-shadow: 0 0 10px rgba(192, 139, 255, 0.6);
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .gallery-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* Border auriu */
+        border: 2px solid #F6B73C;
+
+        padding: 10px;
+
+        /* Fundal mov semi-transparent */
+        background-color: rgba(90, 42, 130, 0.35);
+
+        border-radius: 10px;
+
+        /* Glow mov */
+        box-shadow: 0 0 20px rgba(192, 139, 255, 0.6);
+
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+        transform: scale(1.05);
+        box-shadow:
+            0 0 25px rgba(246, 183, 60, 0.9),
+            0 0 45px rgba(192, 139, 255, 0.7);
+    }
+
+    .gallery-item img {
+        width: 380px;
+        height: 100px;
+        border-radius: 10px;
+        transition: opacity 0.5s ease;
+    }
+
+    .gallery-item img:hover {
+        opacity: 0.85;
+    }
+
+    .name {
+        margin-top: 5px;
+        color: #C08BFF; /* Mov deschis */
+        font-weight: bold;
+        font-size: 1.1em;
+        text-shadow: 0 0 8px rgba(192, 139, 255, 0.7);
+    }
+
+    .price {
+        margin-top: 10px;
+        color: #F6B73C; /* Auriu */
+        font-weight: bold;
+        font-size: 1.2em;
+        text-shadow: 0 0 10px rgba(246, 183, 60, 0.8);
+    }
+
+    @keyframes textGlow {
+        0% {
+            text-shadow:
+                0 0 8px rgba(192, 139, 255, 0.6),
+                0 0 16px rgba(90, 42, 130, 0.6);
+        }
+        50% {
+            text-shadow:
+                0 0 14px rgba(246, 183, 60, 0.9),
+                0 0 30px rgba(192, 139, 255, 0.9);
+        }
+        100% {
+            text-shadow:
+                0 0 8px rgba(192, 139, 255, 0.6),
+                0 0 16px rgba(90, 42, 130, 0.6);
+        }
+    }
+</style>
+
+
+</head>
+<body>
+
+<h1>Galerie ❤️ Pstyle Gif</h1>
+<div id="pstyle-gallery" class="gallery"><div class="gallery-item"><img src="https://i.postimg.cc/wTSy7z4x/g-Jzw-LLf-W2r-CU.gif" alt="Exclusiv Pstyle 1"><div class="name">NUM 35</div><div class="price">Price: 500 xats</div></div><div
+<div class="gallery-item"><img src="https://i.postimg.cc/D0KSzPwv/Dan1el.gif" alt=""><div class="name">NUM 36</div><div class="price">Price: 500 xats</div>
+	</div>
+
+<div class="gallery-item"><img src="https://i.postimg.cc/qRdtBHwh/Kitty-Cel.gif" alt=""><div class="name">NUM 37</div><div class="price">Price: 500 xats</div>
+	</div>
+<div class="gallery-item"><img src="https://i.postimg.cc/m2fF8cSY/Verito-Dorado.gif" alt=""><div class="name">NUM 38</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/4dbpprNS/anigif.gif" alt=""><div class="name">NUM 39</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/43pXs8D4/anigif.gif" alt=""><div class="name">NUM 40</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+	
+	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/Vk838YWT/anigif.gif" alt=""><div class="name">NUM 41</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/zGhKnNmJ/anigif.gif" alt=""><div class="name">NUM 42</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/SRjD4PnJ/anigif.gif" alt=""><div class="name">NUM 43</div><div class="price">Price: 500 xats</div>
+	</div>			
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/vZy2g3jS/anigif.gif" alt=""><div class="name">NUM 44</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/029DpzdG/anigif.gif" alt=""><div class="name">NUM 45</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/76Gh1kfy/anigif.gif" alt=""><div class="name">NUM 46</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/GhkLDs0c/anigif.gif" alt=""><div class="name">NUM 47</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/NFqHVnvH/anigif.gif" alt=""><div class="name">NUM 48</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/RZKng9b4/anigif.gif" alt=""><div class="name">NUM 49</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/B6B4TSCx/anigif.gif" alt=""><div class="name">NUM 50</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/NMMxBRhg/anigif.gif" alt=""><div class="name">NUM 51</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/T2y4NMfJ/anigif.gif" alt=""><div class="name">NUM 52</div><div class="price">Price: 500 xats</div>
+	</div>			
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/zG1yhkCZ/anigif.gif" alt=""><div class="name">NUM 53</div><div class="price">Price: 500 xats</div>
+	</div>			
+		
+<div class="gallery-item"><img src="https://i.postimg.cc/FsLyvg5d/anigif.gif" alt=""><div class="name">NUM 54</div><div class="price">Price: 500 xats</div>
+	</div>			
+<div class="gallery-item"><img src="https://i.postimg.cc/26XZQK8r/anigif.gif" alt=""><div class="name">NUM 55</div><div class="price">Price: 500 xats</div>
+	</div>			
+		
+<div class="gallery-item"><img src="https://i.postimg.cc/nVjm4j0v/anigif.gif" alt=""><div class="name">NUM 56</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/MZj9W7X4/anigif.gif" alt=""><div class="name">NUM 57</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/sfc3zjJG/anigif.gif" alt=""><div class="name">NUM 58</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/y8NnY0HW/anigif.gif" alt=""><div class="name">NUM 59</div><div class="price">Price: 500 xats</div>
+	</div>			
+	
+	<div class="gallery-item"><img src="https://i.postimg.cc/MG90gRPR/anigif.gif" alt=""><div class="name">NUM 60</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/FsfyTg7L/anigif.gif" alt=""><div class="name">NUM 61</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/PrmWGfQX/anigif.gif" alt=""><div class="name">NUM 62</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/tgmPdsp5/anigif.gif" alt=""><div class="name">NUM 63</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/28fWxRRP/anigif.gif" alt=""><div class="name">NUM 64</div><div class="price">Price: 500 xats</div>
+	</div>			
+<div class="gallery-item"><img src="https://i.postimg.cc/8zprqRC4/anigif.gif" alt=""><div class="name">NUM 65</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/G3GrBFNQ/anigif.gif" alt=""><div class="name">NUM 66</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/Dzb3bQT1/anigif.gif" alt=""><div class="name">NUM 67</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/5Nyv9FbB/anigif.gif" alt=""><div class="name">NUM 68</div><div class="price">Price: 500 xats</div>
+	</div>
+
+<div class="gallery-item"><img src="https://i.postimg.cc/xjw9h3Rx/anigif.gif" alt=""><div class="name">NUM 69</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+	<div class="gallery-item"><img src="https://i.postimg.cc/kGTTvtLK/anigif.gif" alt=""><div class="name">NUM 70</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/pVfhRmJH/anigif.gif" alt=""><div class="name">NUM 71</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/6563KYQr/anigif.gif" alt=""><div class="name">NUM 72</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/4xmx7yVn/anigif.gif" alt=""><div class="name">NUM 73</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/HnVh0q20/anigif.gif" alt=""><div class="name">NUM 74</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/HnRP66Zq/anigif.gif" alt=""><div class="name">NUM 75</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/cHrZrF9g/anigif.gif" alt=""><div class="name">NUM 76</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/SRK4Md3R/anigif.gif" alt=""><div class="name">NUM 77</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/MXkvhNDD/anigif.gif" alt=""><div class="name">NUM 78</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/RhMhhRw1/anigif.gif" alt=""><div class="name">NUM 79</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/Dzf9JzJW/anigif.gif" alt=""><div class="name">NUM 80</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/VsMYCxZT/anigif.gif" alt=""><div class="name">NUM 81</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/BQX9tN4b/anigif.gif" alt=""><div class="name">NUM 82</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/9MgpGkGQ/anigif.gif" alt=""><div class="name">NUM 83</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/hGt4Vt5r/anigif.gif" alt=""><div class="name">NUM 84</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/gjSx4n6W/anigif.gif" alt=""><div class="name">NUM 85</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/nVPKm5XY/anigif.gif" alt=""><div class="name">NUM 86</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.ibb.co/DD2cs9yS/anigif.gif" alt=""><div class="name">NUM 87</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.ibb.co/gbsDWGW6/anigif.gif" alt=""><div class="name">NUM 88</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/R4HjMj5H/anigif.gif" alt=""><div class="name">NUM 89</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/5WCxBybR/anigif.gif" alt=""><div class="name">NUM 90</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/KPxdDkF/PV-ANIMADO-dassy.gif" alt=""><div class="name">NUM 91</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/NgSY7BYj/anigif.gif" alt=""><div class="name">NUM 92</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+<div class="gallery-item"><img src="https://i.ibb.co/7JmfjSwq/anigif.gif" alt=""><div class="name">NUM 93</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/m5zSVC8k/PST-2.gif" alt=""><div class="name">NUM 94</div><div class="price">Price: 500 xats</div>
+	</div>
+<div class="gallery-item"><img src="https://i.ibb.co/B5sjv4wx/anigif.gif" alt=""><div class="name">NUM 95</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/nNDXxLq0/anigif.gif" alt=""><div class="name">NUM 96</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/FqfrWsM1/anigif.gif" alt=""><div class="name">NUM 97</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.ibb.co/qF2f5PsH/anigif.gif" alt=""><div class="name">NUM 98</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/sMQYLNJ/anigif.gif" alt=""><div class="name">NUM 99</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.ibb.co/gLspdnmK/anigif.gif" alt=""><div class="name">NUM 100</div><div class="price">Price: 500 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.ibb.co/S7rpxwgB/anigif.gif" alt=""><div class="name">NUM 101</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.ibb.co/1G1HzjCp/anigif.gif" alt=""><div class="name">NUM 102</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.ibb.co/RZymQd8/anigif.gif" alt=""><div class="name">NUM 103</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/pB5Thnkx/anigif.gif" alt=""><div class="name">NUM 104</div><div class="price">Price: 500 xats</div>
+	</div>	
+	
+	<div class="gallery-item"><img src="https://i.ibb.co/HJJQ8Qc/anigif.gif" alt=""><div class="name">NUM 105</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/wZ50qv5z/anigif.gif" alt=""><div class="name">NUM 106</div><div class="price">Price: 500 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.ibb.co/20XvT0ZX/anigif.gif" alt=""><div class="name">NUM 107</div><div class="price">Price: 500 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.ibb.co/9mY0bJq9/anigif.gif" alt=""><div class="name">NUM 108</div><div class="price">Price: 500 xats</div>
+	</div>
+
+</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/vm4GhhbG/PSTYLE.gif" alt=""><div class="name">NUM 109</div><div class="price">Price: 500 xats</div>
+	</div>
+
+
+	
+	</div>
+<div class="container">	
+
+  
+
+</head>
+<body>
+
+<h1>Galerie  Pstyle No  Gif</h1>
+ </div>
+	
+<div id="pstyle-gallery" class="gallery"><div class="gallery-item"><img src="https://i.postimg.cc/1X8hppMK/pstyle.png" alt="Exclusiv Pstyle 1"><div class="name">NUM 1</div><div class="price">Price: 300 xats</div></div><div
+<div class="gallery-item"><img src="https://i.postimg.cc/bY3PDvYJ/4.png" alt=""><div class="name">NUM 2</div><div class="price">Price: 300 xats</div>
+	</div>
+	<div class="gallery-item"><img src="https://i.postimg.cc/c4mVQhnR/3.png" alt=""><div class="name">NUM 3</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/SsFsvP0P/4.png" alt=""><div class="name">NUM 4</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/br44zNWT/5.png" alt=""><div class="name">NUM 5</div><div class="price">Price: 300 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/BvJs94v6/pstyle.png" alt=""><div class="name">NUM 6</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/tTCxgKBR/pstyle.png" alt=""><div class="name">NUM 7</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/xdrKLpKb/pstyle.png" alt=""><div class="name">NUM 8</div><div class="price">Price: 300 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/90Tf80mg/C-Users-xristinakii-Desktop-pstyle-9.png" alt=""><div class="name">NUM 9</div><div class="price">Price: 300 xats</div>
+	</div>	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/8khJmX7p/10.png" alt=""><div class="name">NUM 10</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/fy7Txbfc/11.png" alt=""><div class="name">NUM 11</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/wjnVTSzd/C-Users-xristinakii-Desktop-pstyle-12.png" alt=""><div class="name">NUM 12</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/8kZJd95Q/13.png" alt=""><div class="name">NUM 13</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/DwzssFFX/14.png" alt=""><div class="name">NUM 14</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/fWvRXRZT/pstyle.png" alt=""><div class="name">NUM 15</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/VNzXgz4F/pstyle.png" alt=""><div class="name">NUM 16</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/jS4FL2gp/17.png" alt=""><div class="name">NUM 17</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/RCGhQL3h/18.png" alt=""><div class="name">NUM 18</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/gJ2FY8Gt/19.png" alt=""><div class="name">NUM 19</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/SRmr0fqj/20.png" alt=""><div class="name">NUM 20</div><div class="price">Price: 300 xats</div>
+	</div>			
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/hjRG0sh6/19.png" alt=""><div class="name">NUM 21</div><div class="price">Price: 300 xats</div>
+	</div>			
+<div class="gallery-item"><img src="https://i.postimg.cc/VNQS7mVK/19.png" alt=""><div class="name">NUM 22</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/sx5T1CB0/pstyle.png" alt=""><div class="name">NUM 23</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/52LvnYkT/pstyle.png" alt=""><div class="name">NUM 24</div><div class="price">Price: 300 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/L40Gtk4V/53664648872-f301fd06bc-o.png" alt=""><div class="name">NUM 25</div><div class="price">Price: 300 xats</div>
+	</div>		
+<div class="gallery-item"><img src="https://i.postimg.cc/VknMNtXt/pstyle.png" alt=""><div class="name">NUM 26</div><div class="price">Price: 300 xats</div>
+	</div>			
+<div class="gallery-item"><img src="https://i.postimg.cc/KvxTRjnR/pstyle.png" alt=""><div class="name">NUM 27</div><div class="price">Price: 300 xats</div>
+	</div>	
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/C5Kr6cyB/new-pstyle.png" alt=""><div class="name">NUM 28</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/15QrtW7p/13.png" alt=""><div class="name">NUM 29</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/7Ypgj216/pstyle.png" alt=""><div class="name">NUM 30</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/pTGsXL1S/C-Users-xrist-Desktop-Pstyle-Ps-Style-14.png" alt=""><div class="name">NUM 31</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/L4kzTXTF/Ps-Style-15.png" alt=""><div class="name">NUM 32</div><div class="price">Price: 300 xats</div>
+	</div>		
+	
+<div class="gallery-item"><img src="https://i.postimg.cc/SsswG5Bw/Ps-Style-16.png" alt=""><div class="name">NUM 33</div><div class="price">Price: 300 xats</div>
+	</div>	
+<div class="gallery-item"><img src="https://i.postimg.cc/fT25cyzT/Ps-Style-parejas.png" alt=""><div class="name">NUM 34</div><div class="price">Price: 300 xats</div>
+	</div>		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body></html>
