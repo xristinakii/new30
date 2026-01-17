@@ -4,95 +4,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie  PcBack</title>
 
-    <style>
-        /* Stilurile existente */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #0c1575; /* Fundal albastru închis */
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            min-height: 100vh;
-            overflow-y: auto;
-        }
+   <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #5A2A82; /* Mov principal */
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
 
-        h1 {
-            margin-top: 20px;
-            color: #1E90FF; /* Albastru deschis */
-            text-shadow: 0 0 10px rgba(30, 144, 255, 0.7); /* Glow albastru */
-            font-size: 3em;
-            font-weight: bold;
-            background: linear-gradient(135deg, #1E90FF, #00008B); /* Tonuri de albastru */
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: textGlow 1.5s ease-in-out infinite;
-        }
+    h1 {
+        margin-top: 20px;
+        font-size: 3em;
+        font-weight: bold;
 
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin: 20px;
-        }
+        /* Gradient mov */
+        background: linear-gradient(135deg, #C08BFF, #5A2A82);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
-        .gallery-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border: 2px solid #00008B; /* Albastru închis */
-            padding: 10px;
-            background-color: rgba(0, 0, 139, 0.8); /* Albastru închis transparent */
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(30, 144, 255, 0.7); /* Glow albastru */
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+        /* Glow mov */
+        text-shadow: 0 0 12px rgba(192, 139, 255, 0.8);
 
-        .gallery-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 30px rgba(30, 144, 255, 1); /* Glow albastru mai intens */
-        }
+        animation: textGlow 1.5s ease-in-out infinite;
+    }
 
-        .gallery-item img {
-            width: 728px;
-            height: 486px;
-            border-radius: 10px;
-            transition: opacity 0.5s ease;
-        }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+    }
 
-        .gallery-item img:hover {
-            opacity: 0.8;
-        }
+    .gallery-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-        .name {
-            margin-top: 5px;
-            color: #1E90FF; /* Albastru deschis */
-            font-weight: bold;
-            font-size: 1.1em;
-            text-shadow: 0 0 5px rgba(30, 144, 255, 0.7); /* Glow albastru */
-        }
+        /* Border auriu */
+        border: 2px solid #F6B73C;
 
-        .price {
-            margin-top: 10px;
-            color: #1E90FF; /* Albastru deschis */
-            font-weight: bold;
-            font-size: 1.2em;
-            text-shadow: 0 0 5px rgba(30, 144, 255, 0.7); /* Glow albastru */
-        }
+        padding: 10px;
 
-        @keyframes textGlow {
-            0% { text-shadow: 0 0 5px rgba(30, 144, 255, 0.5); }
-            50% { text-shadow: 0 0 15px rgba(30, 144, 255, 1); }
-            100% { text-shadow: 0 0 5px rgba(30, 144, 255, 0.5); }
+        /* Fundal mov semi-transparent */
+        background-color: rgba(90, 42, 130, 0.35);
+
+        border-radius: 10px;
+
+        /* Glow mov */
+        box-shadow: 0 0 20px rgba(192, 139, 255, 0.6);
+
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+        transform: scale(1.05);
+        box-shadow:
+            0 0 25px rgba(246, 183, 60, 0.9),
+            0 0 45px rgba(192, 139, 255, 0.7);
+    }
+
+    .gallery-item img {
+        width: 728px;
+        height: 486px;
+        border-radius: 10px;
+        transition: opacity 0.5s ease;
+    }
+
+    .gallery-item img:hover {
+        opacity: 0.85;
+    }
+
+    .name {
+        margin-top: 5px;
+        color: #C08BFF; /* Mov deschis */
+        font-weight: bold;
+        font-size: 1.1em;
+        text-shadow: 0 0 8px rgba(192, 139, 255, 0.7);
+    }
+
+    .price {
+        margin-top: 10px;
+        color: #F6B73C; /* Auriu */
+        font-weight: bold;
+        font-size: 1.2em;
+        text-shadow: 0 0 10px rgba(246, 183, 60, 0.8);
+    }
+
+    @keyframes textGlow {
+        0% {
+            text-shadow:
+                0 0 8px rgba(192, 139, 255, 0.6),
+                0 0 16px rgba(90, 42, 130, 0.6);
         }
-    </style>
+        50% {
+            text-shadow:
+                0 0 14px rgba(246, 183, 60, 0.9),
+                0 0 30px rgba(192, 139, 255, 0.9);
+        }
+        100% {
+            text-shadow:
+                0 0 8px rgba(192, 139, 255, 0.6),
+                0 0 16px rgba(90, 42, 130, 0.6);
+        }
+    }
+</style>
 
 </head>
 <h1>Galerie ❤️ PcBack</h1>
-<div id="pcback-gallery" class="gallery"><div class="gallery-item"><img src="https://i.postimg.cc/vT88Zxm3/anigif.gif" alt="pcbackgif1.gif"><div class="name">TEST</div>
-
 <div id="pcback-gallery" class="gallery"><div class="gallery-item"><img src="https://i.postimg.cc/vT88Zxm3/anigif.gif" alt="pcbackgif1.gif"><div class="name">gif 01</div><div class="price">Price: 600 xats</div></div><div class="gallery-item"><img src="https://i.postimg.cc/gr9yQMvT/anigif.gif" alt="pcbackgif2.gif"><div class="name">gif 02</div><div class="price">Price: 600 xats</div></div><div class="gallery-item"><img src="https://i.postimg.cc/L8w32YJn/anigif.gif" alt="pcbackgif3.gif"><div class="name">gif 03</div><div class="price">Price: 600 xats</div></div><div 
 class="gallery-item"><img src="https://i.postimg.cc/j5LnbGVV/anigif.gif" alt="pcbackgif4.gif"><div class="name">gif 04</div><div class="price">Price: 600 xats</div></div><div
 class="gallery-item"><img src="https://i.postimg.cc/Qx5JXrNM/anigif.gif" alt="pcbackgif5.gif"><div class="name">gif 05</div><div class="price">Price: 600 xats</div></div><div 
