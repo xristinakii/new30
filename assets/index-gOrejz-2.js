@@ -9752,7 +9752,7 @@ function Kf() {
 							
 							     })]
                     }), p.jsxs("a", {
-                        href: "https://mundoxat.github.io/xristinakii/indexradio.html",
+                        href: "https://xristinakii.github.io/new30/indexradio.html",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
@@ -9764,7 +9764,7 @@ function Kf() {
                        
                         })]
 						   }), p.jsxs("a", {
-                        href: "https://mundoxat.github.io/xristinakii/indexgifs.html",
+                        href: "https://xristinakii.github.io/new30/indexgifs.html",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
@@ -9776,7 +9776,7 @@ function Kf() {
                        
                         })]
 						   }), p.jsxs("a", {
-                        href: "https://mundoxat.github.io/xristinakii/indexpcback.html",
+                        href: "https://xristinakii.github.io/new30/indexpcback.html",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
@@ -9788,7 +9788,7 @@ function Kf() {
                        
                         })]
 						   }), p.jsxs("a", {
-                        href: "https://mundoxat.github.io/xristinakii/indexdj.html",
+                        href: "https://xristinakii.github.io/new30/indexdj.html",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
@@ -9800,7 +9800,7 @@ function Kf() {
                        
                         })]
                     }), p.jsxs("a", {
-                        href: "https://mundoxat.github.io/xristinakii/indexbgs.html",
+                        href: "https://xristinakii.github.io/new30/indexbgs.html",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
